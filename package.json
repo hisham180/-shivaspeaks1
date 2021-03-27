@@ -1,0 +1,36 @@
+{
+  "name": "astrologer_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Hisham Khan",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "bluebird": "^3.7.2",
+    "ejs": "^3.1.6",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-qs": "^3.0.0",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.21",
+    "logger": "0.0.1",
+    "memcached": "^2.2.2",
+    "moment-timezone": "^0.5.33",
+    "mongoose": "^5.10.9",
+    "mongoose-bcrypt": "^1.9.0",
+    "mongoose-private-paths": "^0.7.0",
+    "nanoid": "^3.1.20",
+    "nodemon": "^2.0.7",
+    "pino": "^6.11.1",
+    "pino-pretty": "^4.5.0",
+    "redis": "^3.0.2",
+    "uuid": "^8.3.2",
+    "whatwg-url": "^8.4.0"
+  }
+}

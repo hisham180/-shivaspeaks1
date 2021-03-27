@@ -1,0 +1,42 @@
+{
+	"storageDatabases": {
+		"mongodbPrimaryRpl0": {
+			"db": "",
+			"host": "",
+			"user": "",
+			"pass": "",
+			"options": ""
+		}
+	},
+	"cacheDatabases": {
+		"keyPrefix": "",
+		"memcachePrimary": {
+			"host": "",
+			"port": "",
+			"db": "",
+			"timeout": 2000
+		}
+	},
+	"redisDatabases": {
+		"keyPrefix": "",
+		"redisPrimary": {
+			"host": "",
+			"user": "",
+			"pass": "",
+			"db": "",
+			"timeout": 2000
+		}
+	},
+	"application": {
+		"port": 4100,
+		"sentryDsn": "",
+		"mailgun": {
+			"domain": "",
+			"apikey": "",
+			"fromEmail": ""
+		},
+		"domain": "",
+		"secret": "",
+		"gcWebhook": ""
+	}
+}
