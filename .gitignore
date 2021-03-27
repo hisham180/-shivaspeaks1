@@ -4,3 +4,9 @@ node_modules
 # Ignoring confing files
 development.config.json
 staging.config.json
+
+
+/node_modules
+npm-debug.log
+.DS_Store
+/*.env
