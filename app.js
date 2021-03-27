@@ -59,7 +59,7 @@ _.each(routesList, (router, key) => {
   app.use(router.allowedMethods());
 });
 
-let server = app.listen(config.application.port, () => {
+let server = app.listen(config.Procfile.port, () => {
   logger.info(
     `[Started] Application started listening on port ${config.application.port}`
   );
