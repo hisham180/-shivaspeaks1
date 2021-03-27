@@ -1,5 +1,33 @@
 {
-    "application": {
+	"storageDatabases": {
+		"mongodbPrimaryRpl0": {
+			"db": "astrologer",
+			"host": "cluster0.hzgdz.mongodb.net",
+			"user": "admin",
+			"pass": "mJGJCPpbT54Hhpab",
+			"options": "retryWrites=true&w=majority"
+		}
+	},
+	"cacheDatabases": {
+		"keyPrefix": "astrologer:api:",
+		"memcachePrimary": {
+			"host": "127.0.0.1",
+			"port": "11211",
+			"db": "4",
+			"timeout": 2000
+		}
+	},
+	"redisDatabases": {
+		"keyPrefix": "astrologer:api:",
+		"redisPrimary": {
+			"host": "127.0.0.1:6379",
+			"user": null,
+			"pass": null,
+			"db": "4",
+			"timeout": 2000
+		}
+	},
+	"application": {
 		"port": 4100,
 		"sentryDsn": "",
 		"mailgun": {
