@@ -59,9 +59,9 @@ _.each(routesList, (router, key) => {
   app.use(router.allowedMethods());
 });
 
-let server = app.listen(process.env.PORT || config.application.port, () => {
+let server = app.listen($PORT, () => {
   logger.info(
-    `[Started] Application started listening on port config.application.port ${config.application.port}``[Started] Application started listening on port process.env.PORT ${process.env.PORT}`
+    `[Started] Application started listening on port config.application.port ${$PORT}`
   );
 });
 // TODO: Timeout configuration

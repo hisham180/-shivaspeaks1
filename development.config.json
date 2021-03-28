@@ -28,7 +28,7 @@
 		}
 	},
 	"application": {
-		"port": 4100,
+		"port": 3800,
 		"sentryDsn": "",
 		"mailgun": {
 			"domain": "",
